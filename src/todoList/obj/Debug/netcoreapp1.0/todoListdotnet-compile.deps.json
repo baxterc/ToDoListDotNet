@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0/",
-    "signature": "4ce87d97c9b8d2a0b609085ed918017324c3b2f4"
+    "signature": "c35d97a68173befdad72a9d7ba32f8c21a7bc606"
   },
   "compilationOptions": {
     "defines": [
@@ -23,7 +23,8 @@
           "Microsoft.EntityFrameworkCore": "1.0.0-rc2-final",
           "Microsoft.EntityFrameworkCore.SqlServer": "1.0.0-rc2-final",
           "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0-rc2-final",
-          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc2-final"
+          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc2-final",
+          "Microsoft.AspNetCore.StaticFiles": "1.0.0-rc2-final"
         },
         "compile": {
           "todoList.dll": {}
@@ -515,6 +516,18 @@
         },
         "compile": {
           "lib/netstandard1.3/Microsoft.AspNetCore.Server.Kestrel.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.StaticFiles/1.0.0-rc2-final": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "1.0.0-rc2-final",
+          "Microsoft.AspNetCore.Http.Extensions": "1.0.0-rc2-final",
+          "Microsoft.Extensions.FileProviders.Abstractions": "1.0.0-rc2-final",
+          "Microsoft.Extensions.Logging.Abstractions": "1.0.0-rc2-final",
+          "Microsoft.Extensions.WebEncoders": "1.0.0-rc2-final"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.AspNetCore.StaticFiles.dll": {}
         }
       },
       "Microsoft.AspNetCore.WebUtilities/1.0.0-rc2-final": {
@@ -2476,7 +2489,8 @@
           "Microsoft.EntityFrameworkCore": "1.0.0-rc2-final",
           "Microsoft.EntityFrameworkCore.SqlServer": "1.0.0-rc2-final",
           "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0-rc2-final",
-          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc2-final"
+          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc2-final",
+          "Microsoft.AspNetCore.StaticFiles": "1.0.0-rc2-final"
         },
         "runtime": {
           "todoList.dll": {}
@@ -2968,6 +2982,18 @@
         },
         "runtime": {
           "lib/netstandard1.3/Microsoft.AspNetCore.Server.Kestrel.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.StaticFiles/1.0.0-rc2-final": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "1.0.0-rc2-final",
+          "Microsoft.AspNetCore.Http.Extensions": "1.0.0-rc2-final",
+          "Microsoft.Extensions.FileProviders.Abstractions": "1.0.0-rc2-final",
+          "Microsoft.Extensions.Logging.Abstractions": "1.0.0-rc2-final",
+          "Microsoft.Extensions.WebEncoders": "1.0.0-rc2-final"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.AspNetCore.StaticFiles.dll": {}
         }
       },
       "Microsoft.AspNetCore.WebUtilities/1.0.0-rc2-final": {
@@ -4991,6 +5017,11 @@
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-ojeLfBZ+H7uVImuzqErcNv8hN8Z8+k99jSl2U+cwEMddJXnzqjND20NlwNW/g4/3roLB3F3+6kYTy3wWMYFQCg=="
+    },
+    "Microsoft.AspNetCore.StaticFiles/1.0.0-rc2-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MOv6HHX1C/62ljMsl/MK9hlG+f/9k3+kR6CHHaf2gqTXMb3qOf3gfthiTQIESTh66JxC7ZcFVCKdNKuodlXsgA=="
     },
     "Microsoft.AspNetCore.WebUtilities/1.0.0-rc2-final": {
       "type": "package",
