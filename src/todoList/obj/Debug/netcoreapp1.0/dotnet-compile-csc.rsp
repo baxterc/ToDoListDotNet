@@ -170,7 +170,9 @@
 -resource:"c:\Users\epicodus\documents\visual studio 2015\Projects\todoList\src\todoList\obj\Debug\netcoreapp1.0\todoListdotnet-compile.deps.json",todoList.deps.json
 "c:\Users\epicodus\documents\visual studio 2015\Projects\todoList\src\todoList\Program.cs"
 "c:\Users\epicodus\documents\visual studio 2015\Projects\todoList\src\todoList\Startup.cs"
+"c:\Users\epicodus\documents\visual studio 2015\Projects\todoList\src\todoList\Controllers\CategoriesController.cs"
 "c:\Users\epicodus\documents\visual studio 2015\Projects\todoList\src\todoList\Controllers\HomeController.cs"
 "c:\Users\epicodus\documents\visual studio 2015\Projects\todoList\src\todoList\Controllers\ItemsController.cs"
+"c:\Users\epicodus\documents\visual studio 2015\Projects\todoList\src\todoList\Models\Category.cs"
 "c:\Users\epicodus\documents\visual studio 2015\Projects\todoList\src\todoList\Models\Item.cs"
 "c:\Users\epicodus\documents\visual studio 2015\Projects\todoList\src\todoList\Models\ToDoListContext.cs"

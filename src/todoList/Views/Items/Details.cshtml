@@ -7,5 +7,9 @@
 
 <h2>Details</h2>
 <hr />
-@Html.DisplayNameFor(model => model.Description): @Html.DisplayFor(model => model.Description)
-<p>@Html.ActionLink("Back to list", "Index")</p>
+<p>@Html.DisplayNameFor(model => model.Description): @Html.DisplayFor(model => model.Description)</p>
+<p>@Html.DisplayNameFor(model => model.Category.Name) : @ViewBag.thisCategory.Name</p>
+
+
+
+<p>@Html.ActionLink("Edit", "Edit", new { id = Model.ItemId }) | @Html.ActionLink("Back to List", "Index")</p>

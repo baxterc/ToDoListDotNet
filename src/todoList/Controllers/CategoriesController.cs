@@ -18,6 +18,7 @@ namespace todoList.Controllers
         public IActionResult Details(int id)
         {
             var thisCategory = db.Categories.FirstOrDefault(categories => categories.CategoryId == id);
+            ViewBag.theseItems = db.Categories.Where(category => category.CategoryId == thisCategory.CategoryId).Include(category => category.Items).FirstOrDefault();
             return View(thisCategory);
         }
         public IActionResult Create()
